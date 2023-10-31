@@ -13,6 +13,9 @@ export const  FloatingButton= () => {
     if(isNaN(value)) return
     setNumber(value)
   }
+  const checkBoxHandler = ()=>{
+    setCheck(prev=>!prev)
+}
   return (
     <div className='floating-button-container p-4 d-flex justify-content-center flex-column'>
        {showButton && <div class="flex items-center input-box">
@@ -23,7 +26,7 @@ export const  FloatingButton= () => {
                 Apply now
                 <img src="https://www.uni.cards/images/right_arrow.svg" alt="arrow" />
              </button>
-            {showButton && <CheckBox check={check} onClick={()=>setCheck(prev=>!prev)} className='text-light text-size-10 fw-bold'/>}
+            {showButton && <CheckBox check={check} onClick={checkBoxHandler} className='text-light text-size-10 fw-bold'/>}
     </div>
   )
 }
