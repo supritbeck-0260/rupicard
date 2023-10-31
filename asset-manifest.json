@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rupicard/static/css/main.e1ec462d.css",
-    "main.js": "/rupicard/static/js/main.e8bab8ca.js",
+    "main.js": "/rupicard/static/js/main.3072941d.js",
     "static/js/787.e7ab8fc8.chunk.js": "/rupicard/static/js/787.e7ab8fc8.chunk.js",
     "index.html": "/rupicard/index.html",
     "main.e1ec462d.css.map": "/rupicard/static/css/main.e1ec462d.css.map",
-    "main.e8bab8ca.js.map": "/rupicard/static/js/main.e8bab8ca.js.map",
+    "main.3072941d.js.map": "/rupicard/static/js/main.3072941d.js.map",
     "787.e7ab8fc8.chunk.js.map": "/rupicard/static/js/787.e7ab8fc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ec462d.css",
-    "static/js/main.e8bab8ca.js"
+    "static/js/main.3072941d.js"
   ]
 }
