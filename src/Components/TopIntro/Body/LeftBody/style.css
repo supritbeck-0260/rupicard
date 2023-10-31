@@ -1,0 +1,18 @@
+.left-body-container {
+    max-width: 700px;
+}
+
+.left-body-container .body-text{
+   font-size:  3.4rem;
+   line-height: 54px;
+   margin-bottom: 1.5rem;
+}
+@media only screen and (max-width: 576px) {
+    .left-body-container .body-text{
+        font-size:  1.875rem;
+        line-height: 2.25rem;
+    }
+    .left-body-container{
+        padding: 20px 0px;
+    }
+  }

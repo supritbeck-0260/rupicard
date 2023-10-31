@@ -1,0 +1,45 @@
+.button-container{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+.button-container a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #000000;
+    opacity: 0.6;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* .apply-button-container .input-container .input-field input{
+    padding: 5px;
+    border-radius: 10px;
+} */
+.apply-button-container .input-container{
+    border-radius: 15px;
+}
+.apply-button-container .input-container .input-field input:focus-visible{
+    border: none;
+    outline: none;
+}
+.apply-button-container .input-container .apply-button{
+   background: rgba(253,239,120);
+   border-radius: 15px;
+   border: none;
+   font-size: .875rem;
+}
+.apply-button-container .input-container .apply-button:disabled{
+    opacity: 0.8;
+}
+.apply-button-container .concent-box label{
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    .apply-button-container{
+        display: none;
+    }
+  }

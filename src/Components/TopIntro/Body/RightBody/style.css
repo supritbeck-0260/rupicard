@@ -1,0 +1,12 @@
+.right-body-continer {
+    width: 420px;
+}
+.right-body-continer img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+    .right-body-continer{
+        width: 80%;
+    }
+  }

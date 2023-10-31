@@ -1,0 +1,39 @@
+.top-intro-container {
+    height: 100vh;
+}
+.top-intro-container .logo{
+    width: 110px;
+}
+
+/* Reset some default styles and set the video background size */
+
+/* Define the video background container */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the video element */
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+/* Style the content inside the container */
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+}

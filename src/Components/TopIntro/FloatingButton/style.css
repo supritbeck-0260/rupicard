@@ -1,0 +1,51 @@
+.floating-button-container{
+    display: none;
+    position: relative;
+}
+.floating-button-container .input-box{
+    transition: all 1 ease-in-out;
+}
+.floating-button-container .input-box input{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: 10px;
+    padding: 15px;
+    outline: #fdef78;
+    background: black;
+    border: 1px solid #fdef78;
+    color: #fdef78;
+    font-size: medium;
+    font-weight: bold;
+}
+.text-size-10{
+    font-size: 10px;
+}
+.floating-button-container button{
+    background: rgba(253,239,120);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    z-index: 1;
+}
+@media only screen and (max-width: 576px) {
+    .floating-button-container{
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 110%);
+
+
+    }
+
+  } 
+
+  @media only screen and (min-width: 576px){
+    .floating-button-container{
+        display: none !important;
+    }
+  }
+
+
